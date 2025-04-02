@@ -1,0 +1,93 @@
+:root {
+  --primary: #00cbd5;
+}
+
+img {
+  width: 100%;
+  padding-top: 20px;
+}
+
+body {
+  background: black;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--primary);
+  font-weight: lighter;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+  transform: translateY(-80px);
+}
+
+a {
+  text-decoration: none;
+  font-size: 40px;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+main {
+  background: #17091c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  flex-direction: column;
+}
+p {
+  text-align: above;
+}
+
+video {
+  margin: 20px;
+  margin-top: 10px;
+  width: 150vw;
+  height: auto;
+  max-width: 700px;
+}
+
+footer {
+  text-align: center;
+  font-size: 28px;
+  padding: 30px;
+  position: relative;
+}
+
+footer img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media only screen and (max-width: 1100px) {
+  a {
+    font-size: 30px;
+  }
+}
+div {
+  margin: 20px;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: -30px;
+  margin-bottom: -10px;
+  font-weight: 600px;
+  align-items: center;
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: lighter;
+  align-items: center;
+  font-style: normal;
+}

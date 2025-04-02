@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Lucy</title>
+  </head>
+  <body>
+    <a href="index.html">
+      <img src="img/Header1.png" alt="Header" />
+    </a>
+
+    <nav>
+        <a href="Lucy-About.html">ABOUT</a>
+        <a href="Lucy-PORTFOLIO.html">PORTFOLIO</a>
+        <a href="Lucy-Contacts.html">CONTACTS</a>
+      </div>
+      
+    </nav>
+    <main>
+      <h2> I'm a photographer</h2>
+      <h3> Based in Prague and Dublin</h3>
+      <video id="myVideo" width="400" loop autoplay muted>
+        <source src="img/SBTB showreel_1.mp4" type="video/mp4" />
+    </video>
+    
+    <script>
+        const video = document.getElementById('myVideo');
+        
+        video.addEventListener('mouseover', function() {
+            video.removeAttribute('controls');
+        });
+    
+        video.addEventListener('mouseout', function() {
+            video.setAttribute('controls', true);
+        });
+    </script>
+    
+    </main>
+    <footer>
+      <p>SBTB photography</p>
+      <img src="img/Header2.png" alt="Footer" />
+    </footer>
+  </body>
+</html>

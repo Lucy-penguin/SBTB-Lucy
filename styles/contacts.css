@@ -1,0 +1,30 @@
+main {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding: 20px;
+  flex-direction: row;
+}
+
+main i {
+  font-size: 100px;
+  color: var(--primary);
+  transition: transform 0.3s ease;
+}
+
+main i:hover {
+  transform: scale(1.2);
+}
+main {
+  background: #17091c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+footer {
+  text-align: center;
+  font-size: 28px;
+  padding: 90px;
+  position: relative;
+}
