@@ -4,6 +4,8 @@
   margin-top: 10px;
   justify-content: center;
   width: 100%;
+  position: relative;
+  z-index: 100;
 }
 
 .btn-1 {
